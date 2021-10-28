@@ -377,3 +377,18 @@ incubationPeriod_ParEstimates <- function(runs, total_cases, leaveenter_per_day_
   }
   return(result)
 }
+
+
+
+
+Weibull_0.14_2_8 <- incubationPeriod_ParEstimates(1000, 125, 245000, 490000, 0.14, distribution = "weibull", par1 = 2, par2 = 8)
+
+Lognormal_0.14_1.8_0.4 <- incubationPeriod_ParEstimates(1000, 125, 245000, 490000, 0.14, distribution = "lognormal", par1 = 1.8, par2 = 0.4)
+
+Gamma_0.14_5_0.8 <- incubationPeriod_ParEstimates(1000, 125, 245000, 490000, 0.14, distribution = "gamma", par1 = 5, par2 = 0.8)
+
+
+
+
+
+
