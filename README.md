@@ -1,6 +1,6 @@
 
 
-exp_data_generation.R: Generate outbreak in Wuhan. Foward or backward time can be returned.
+exp_data_generation.R: Generates outbreak in Wuhan. Foward or backward time can be returned.
 
 estimates_incubation_time.R: Calculates estimates based on exp_data_generation.R data generation process.
 
