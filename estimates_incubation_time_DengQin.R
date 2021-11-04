@@ -389,3 +389,8 @@ incubationPeriod_Estimates_Deng <- function(runs, distribution, par1, par2){
 }
 
 Gamma_DengQin_estimates <- incubationPeriod_Estimates_Deng(1000, distribution = "gamma", par1 = 5, par2 = 0.8)
+
+Weibull_DengQin_estimates <- incubationPeriod_ParEstimates(1000, distribution = "weibull", par1 = 2, par2 = 8)
+
+Lognormal_DengQin_estimates <- incubationPeriod_ParEstimates(1000, distribution = "lognormal", par1 = 1.8, par2 = 0.4)
+
